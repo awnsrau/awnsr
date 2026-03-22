@@ -10,7 +10,7 @@
 	<nav class="navbar">
 		<div class="nav-container">
 			<div class="logo-space">
-				<div class="logo-placeholder">LOGO</div>
+				<img src="logo.png" alt="awnsr" style="height: 40px; width: auto;">
 			</div>
 			<div class="nav-links">
 				<a href="index.html" class="nav-link">Home</a>
@@ -87,9 +87,9 @@
 							<label for="service">What are you interested in?</label>
 							<select id="service" name="service">
 								<option value="">Select an option</option>
-								<option value="ai-solution">Consultation</option>
-								<option value="consultation">AI Solution</option>
-								<option value="partnership">QA Chat System Development</option>
+								<option value="ai-solution">AI Solution</option>
+								<option value="consultation">Consultation</option>
+								<option value="partnership">Partnership</option>
 								<option value="other">Other</option>
 							</select>
 						</div>
@@ -109,7 +109,6 @@
 		</div>
 	</section>
 
-	<!-- INTERACTIVE MAP SECTION -->
 	<section class="map-section">
 		<div class="container">
 			<h2 style="margin-bottom: 16px;">Our Location</h2>
@@ -152,7 +151,6 @@
 			const formData = {
 				name:    document.getElementById('name').value.trim(),
 				email:   document.getElementById('email').value.trim(),
-				Mobile:   document.getElementById('mobile').value.trim(),
 				company: document.getElementById('company').value.trim(),
 				service: document.getElementById('service').value,
 				message: document.getElementById('message').value.trim(),
